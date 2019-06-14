@@ -4,12 +4,14 @@
 [Slick2D](http://slick.ninjacave.com/) and  [LWJGL](http://lwjgl.org/)
 (wrappers around OpenGL and OpenAL).
 
+# Purpose of fork
+This is my personal project to implement a auto-replay recorder for opsu! for mass recording gameplay footage
+tagging the videos appropriately and uploading them online.
+
+Same licensing rules apply, linking the credits would be apperciated.
+
 opsu! runs on Windows, OS X, and Linux.
 A [libGDX port](https://github.com/fluddokt/opsu) also supports Android devices.
-
-## Getting Started
-Get a copy of opsu! from the [releases](https://github.com/itdelatrisu/opsu/releases)
-page.  APK releases can be found [here](https://github.com/fluddokt/opsu/releases).
 
 ### Java Setup
 The Java Runtime Environment (JRE) 7 or higher must be installed in order to run
@@ -91,7 +93,8 @@ Gradle builds are built to the `build` directory.
 See the [contributing guidelines](CONTRIBUTING.md).
 
 ## Credits
-This software was created by Jeffrey Han
+opsu!Recorder is created by Kutluhan Kurt.
+opsu! is created by Jeffrey Han
 ([@itdelatrisu](https://github.com/itdelatrisu/)).  All game concepts and
 designs are based on work by [osu!](https://osu.ppy.sh/) developer Dean Herbert
 ([@ppy](https://github.com/ppy)).  Other credits can be found [here](CREDITS.md).
